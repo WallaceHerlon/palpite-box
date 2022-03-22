@@ -1,0 +1,22 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">PalpiteBox - Semana Fullstack Master</h1>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WallaceHerlon/palpite-box.git"
+  },
+  "keywords": [],
+  "author": "Wallace Herlon (DevPleno)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WallaceHerlon/palpite-box/issues"
+  },
+  "homepage": "https://github.com/WallaceHerlon/palpite-box#readme"
+}
