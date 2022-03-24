@@ -9,7 +9,7 @@ const Pesquisa = () => {
             Whatsapp: 'aaa'
         }
         try {
-            const response = await fetch('/ipi/save', {
+            const response = await fetch('/api/save', {
                 method: 'POST',
                 body: JSON.stringify(form)
             })
