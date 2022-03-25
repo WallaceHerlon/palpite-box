@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
-import { data } from 'autoprefixer'
+import PageTitle from '../components/PageTile'
 
 const Pesquisa = () => {
     const [form, setForm] = useState({
         Nome: '',
         Email: '',
         Whatsapp: '',
-        Nota: parseInt(data.Nota)
+        Nota: 0
     })
     const notas = [0, 1, 2, 3, 4, 5]
     const [sucess, setSuccess] = useState(false)
@@ -35,6 +34,7 @@ const Pesquisa = () => {
     }
     return (
         <div className="pt-6">
+            <PageTitle title="Pesquisa" />
             <h1 className="text-center font-bold my-4 text-2x1">Críticas e sugestões</h1>
             <p className="text-center mb-6">
                 O restaurante X sempre busca por atender melhor seus clientes.<br />
@@ -51,7 +51,7 @@ const Pesquisa = () => {
                 <div className="flex p-6">
                     {notas.map(nota => {
                         return (
-                            <label className="block w-1/6">{nota} <br/>
+                            <label className="block w-1/6">{nota} <br />
                                 <input type="radio" name="Nota" value={nota} onChange={onchange} />
                             </label>)
                     })
