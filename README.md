@@ -1,6 +1,6 @@
 <h1 align="center">Semana Fullstack Master</h1>
 
-[![HitCount](https://hits.dwyl.com/tuliofaria/WallaceHerlon/palpite-box.svg)](https://hits.dwyl.com/WallaceHerlon/palpite-box)
+[![HitCount](https://hits.dwyl.com/WallaceHerlon/palpite-box.svg)](https://hits.dwyl.com/WallaceHerlon/palpite-box)
 
 
 Este projeto foi construído durante a Semana Fullstack Master do [DevPleno](https://devpleno.com). Uma versão online deste projeto pode ser encotrado em: https://palpite-box-wallaceherlon.vercel.app/. 
